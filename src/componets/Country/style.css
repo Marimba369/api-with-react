@@ -1,0 +1,56 @@
+
+.container-all{
+    display: flex;
+    gap: 10rem;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.container-input{
+  display: flex;
+  gap: 10px;
+  background-color: white;
+}
+
+.input-country{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.container-flag{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+
+}
+
+
+.item-flag{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    height: 450px;
+}
+
+.img-flag{
+    height: 60%;
+    width: 100%;
+}
+
+.item-flag h5{
+    padding: 10px;
+    padding-left: 25px;
+}
+
+span{
+    font-weight: normal;
+}
+
+h3{
+    padding: 10px;
+    padding-left: 18px;
+    font-weight: 900;
+}

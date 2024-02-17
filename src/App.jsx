@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import Country from './componets/country'
+import Country from './componets/Country'
+import Header from './componets/Header'
 
 function App() {
 
   return (
-    <div>
+    <div className=''>
+        <Header />
+      
         <Country/>
     </div>
   )
